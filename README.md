@@ -5,7 +5,7 @@
 > If you need help with the installation, the instructions are below.
 
 
-##English
+## English
 ```
 Click on the "Releases" tab (to the right or at the top of the menu in my GitHub repository).
 Or directly: https://github.com/GDayIT/Snake/releases
@@ -37,7 +37,7 @@ chmod +x build.sh
 ```
 
 
-##German
+## German
 ```
 Klicke auf den Reiter "Releases" (rechts oder oben im Menü in meiner GitHub Repository.)
 
