@@ -92,7 +92,7 @@ Dann ausführbar machen:
 > 
 > ```java
 >
->💡 Unter `//Körper "bewegen"`
+>💡 Unter `//Körper "bewegen"`:
 > 
 > } else {
 >     boolean validPosition = false;
