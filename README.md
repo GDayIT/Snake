@@ -85,23 +85,47 @@ Dann ausführbar machen:
 
 
 > [!CAUTION]
->
->Unter : //Körper "bewegen"
 > 
->} else {
+> 💡 **Unter `//Körper "bewegen"`:**
 > 
->int zufallX = new Random().nextInt(420 / 20) * 20;
+> Ersetze den `else`-Block durch eine Schleife, die sicherstellt, dass das neue Food **nicht auf dem Körper** der Schlange erscheint:
 > 
->int zufallY = new Random().nextInt(420 / 20) * 20;
+> ```java
+> } else {
+>     boolean validPosition = false;
+>     int zufallX = 0;
+>     int zufallY = 0;
 > 
->food.setLayoutX(zufallX);
+>     while (!validPosition) {
+>         zufallX = new Random().nextInt(420 / 20) * 20;
+>         zufallY = new Random().nextInt(420 / 20) * 20;
+>         validPosition = true;
 > 
->food.setLayoutY(zufallY);
+>         for (Rectangle sbod : body) {
+>             if (sbod.getLayoutX() == zufallX && sbod.getLayoutY() == zufallY) {
+>                 validPosition = false;
+>                 break;
+>             }
+>         }
+>     }
 > 
->}
->
->unter: //Ausßerhalb des Spielfelds
+>     food.setLayoutX(zufallX);
+>     food.setLayoutY(zufallY);
+> }
+> ```
+
+---
+
+```markdown
+> [!CAUTION]
 > 
->if (x < 0 || y < 0 || x > 420 || y > 420) {
->
->ändern damit die schlange auch genug zu fressen hat.
+> 💡 **Unter `//Außerhalb des Spielfelds`:**
+> 
+> Passe die Spielfeldgrenzen an, damit die Schlange **genug Platz zum Wachsen** und **Futter** hat:
+> 
+> ```java
+> if (x < 0 || y < 0 || x >= 420 || y >= 420) {
+>     gameover();
+>     return;
+> }
+> ```
