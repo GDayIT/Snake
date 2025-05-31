@@ -4,6 +4,40 @@
 > [!NOTE]
 > If you need help with the installation, the instructions are below.
 
+
+##English
+```
+Click on the "Releases" tab (to the right or at the top of the menu in my GitHub repository).
+Or directly: https://github.com/GDayIT/Snake/releases
+
+You can find the .exe there as a download link under "Assets".
+
+1. Download .exeClick on the .exe file under "Assets"
+   The download will start automatically.
+
+2. RunDouble-click on the .exe
+   If Windows shows a warning ("Unknown Publisher"), you can click on "More Info" → "Run Anyway".
+
+If you want to make changes to the project, just download the contents and modify them.
+
+
+
+Then in Bash:
+
+javac App.java
+echo"App-Class: App" > manifest.txt
+jar cfm MyProgram.jar manifest.txt Main.class (MyProgram.jar can be named anything!)
+javac -jar MyProgram.jar
+
+
+Then make it executable:
+
+chmod +x build.sh
+./build.sh
+```
+
+
+##German
 ```
 Klicke auf den Reiter "Releases" (rechts oder oben im Menü in meiner GitHub Repository.)
 
