@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane fx:id="pane" maxHeight="420" maxWidth="420" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#onSteuerung" prefHeight="440.0" prefWidth="440.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.bbq.snak.PrimaryController">
+   <children>
+      <Rectangle fx:id="kopf" arcHeight="5.0" arcWidth="5.0" fill="#8d7332" height="20.0" layoutX="360.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+      <Rectangle fx:id="food" arcHeight="5.0" arcWidth="5.0" fill="#ee0000" height="20.0" layoutX="80.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+   </children>
+</AnchorPane>
