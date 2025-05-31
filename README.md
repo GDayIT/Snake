@@ -86,11 +86,14 @@ Dann ausführbar machen:
 
 > [!CAUTION]
 > 
-> 💡 **Unter `//Körper "bewegen"`:**
+> 💡 **Kleine richtig stellung und motivation zum experimentieren:**
 > 
 > Ersetze den `else`-Block durch eine Schleife, die sicherstellt, dass das neue Food **nicht auf dem Körper** der Schlange erscheint:
 > 
 > ```java
+>
+>💡 **Unter `//Körper "bewegen"`
+> 
 > } else {
 >     boolean validPosition = false;
 >     int zufallX = 0;
