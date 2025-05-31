@@ -112,12 +112,7 @@ Dann ausführbar machen:
 >     food.setLayoutX(zufallX);
 >     food.setLayoutY(zufallY);
 > }
-> ```
-
----
-
-```markdown
-> [!CAUTION]
+> 
 > 
 > 💡 **Unter `//Außerhalb des Spielfelds`:**
 > 
