@@ -92,7 +92,7 @@ Dann ausführbar machen:
 > 
 > ```java
 >
->💡 **Unter `//Körper "bewegen"`
+>💡 Unter `//Körper "bewegen"`
 > 
 > } else {
 >     boolean validPosition = false;
@@ -117,7 +117,7 @@ Dann ausführbar machen:
 > }
 > 
 > 
-> 💡 **Unter `//Außerhalb des Spielfelds`:**
+> 💡 Unter `//Außerhalb des Spielfelds`:
 > 
 > Passe die Spielfeldgrenzen an, damit die Schlange **genug Platz zum Wachsen** und **Futter** hat:
 > 
