@@ -87,14 +87,16 @@ Dann ausführbar machen:
 > [!CAUTION]
 >
 >Unter : //Körper "bewegen"
+> 
 >} else {
->			int zufallX = new Random().nextInt(420 / 20) * 20;
->			int zufallY = new Random().nextInt(420 / 20) * 20;
->			food.setLayoutX(zufallX);
->			food.setLayoutY(zufallY);
->		}
+>int zufallX = new Random().nextInt(420 / 20) * 20;
+>int zufallY = new Random().nextInt(420 / 20) * 20;
+>food.setLayoutX(zufallX);
+>food.setLayoutY(zufallY);
+>}
 >
 >unter: //Ausßerhalb des Spielfelds
+> 
 >if (x < 0 || y < 0 || x > 420 || y > 420) {
 >
 >ändern damit die schlange auch genug zu fressen hat.
